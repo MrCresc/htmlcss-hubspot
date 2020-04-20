@@ -144,7 +144,7 @@ text-align: right;
 
 .jumbotron {
   background-image: url(../img/jumbotron.png);
-  
+
   height: 930px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -173,4 +173,99 @@ font-size: 16px;
 
 p.getstarted {
   font-size: 15px;
+}
+
+.offers {
+  background-color: #f4f9fd;
+  height: 1000px;
+}
+
+.integrations {
+  width: 50%;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.integrations img {
+  height: 250px;
+}
+
+.integrations h3 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.integrations p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.crm {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  border: 2px solid #e6ecf1;
+  border-radius: 5px;
+  padding: 60px;
+}
+
+.crm img{
+  height: 135px;
+}
+
+.learnmore {
+  margin-top: 20px;
+  padding: 25px 40px;
+  display: inline-block;
+
+}
+
+.crmleft {
+  width: 20%
+}
+
+.crmright {
+  text-align: left;
+  width: 70%;
+  margin-left: 10%;
+}
+
+.crmright h3 {
+  margin: 10px 0;
+  font-size: 30px;
+}
+
+.crmright p {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.crmright h4 {
+  font-size: 25px;
+  margin: 30px 0 15px;
+  font-weight: 400px;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: -8px;
+}
+
+#rigacrm {
+  line-height: 10px;
+  margin-left: 5%;
+  width: 55%;
+  display: inline-block;
+  top: 20px;
+  height: 3px;
+  background-color: #33475b;
+}
+
+.fa-check-circle {
+  color: #fe775a;
+  font-size: 20px;
+}
+
+.col.crmright li {
+  display: inline-block;
+  margin-right: 25px;
 }
