@@ -35,7 +35,7 @@ li {
 
 /* Proprietà generali container (Per la larghezza dei contenuti) */
 .container {
-  width: 75%;
+  width: 70%;
   margin: auto;
 }
 /* Fine Proprietà generali container (Per la larghezza dei contenuti) */
@@ -78,7 +78,7 @@ line-height: 100px;
 }
 
 .col.top-bar a.contactus {
-padding-left: 15px;
+margin-left: 15px;
 }
 
 .fa-chevron-down {
@@ -107,15 +107,12 @@ padding-left: 15px;
   color: #00a4bd;
 }
 
-.gethubspotfree {
-  margin-left: 10px;
-}
-
 .orangebutton {
   color: white;
   background-color: #fe775a;
   padding: 10px 12px;
   border-radius: 5px;
+  margin-left: 10px;
 }
 /* Fine Top-bar Header */
 
@@ -144,3 +141,36 @@ nav {
 text-align: right;
 }
 /* Fine Nav Header */
+
+.jumbotron {
+  background-image: url(../img/jumbotron.png);
+  
+  height: 930px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slogan {
+  width: 50%;
+}
+
+.slogan h2 {
+  padding-top: 20%;
+  font-size: 50px;
+}
+
+.slogan p {
+  padding-top: 5%;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.button-slogan {
+margin-left: 0;
+padding: 20px 40px;
+font-size: 16px;
+}
+
+p.getstarted {
+  font-size: 15px;
+}
