@@ -155,7 +155,7 @@ text-align: right;
 }
 
 .slogan h2 {
-  padding-top: 20%;
+  padding-top: 15%;
   font-size: 50px;
 }
 
@@ -177,7 +177,6 @@ p.getstarted {
 
 .offers {
   background-color: #f4f9fd;
-  height: 1000px;
 }
 
 .integrations {
@@ -201,7 +200,7 @@ p.getstarted {
   line-height: 30px;
 }
 
-.crm {
+.colmain {
   text-align: center;
   width: 100%;
   margin: auto;
@@ -210,7 +209,7 @@ p.getstarted {
   padding: 60px;
 }
 
-.crm img{
+.colmain img{
   height: 135px;
 }
 
@@ -231,23 +230,26 @@ p.getstarted {
   margin-left: 10%;
 }
 
-.crmright h3 {
+section.offers h3 {
   margin: 10px 0;
   font-size: 30px;
 }
 
-.crmright p {
+section.offers p {
   margin-top: 20px;
   font-weight: 600;
 }
 
-.crmright h4 {
-  font-size: 25px;
+section.offers h4 {
+  font-size: 20px;
   margin: 30px 0 15px;
   font-weight: 400px;
   text-transform: uppercase;
   display: inline-block;
-  vertical-align: -8px;
+}
+
+.crmright h4 {
+vertical-align: -5px;
 }
 
 #rigacrm {
@@ -268,4 +270,95 @@ p.getstarted {
 .col.crmright li {
   display: inline-block;
   margin-right: 25px;
+}
+
+.col.crmright ul li p {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.hub {
+  margin: 60px 0;
+  padding: 30px 25px;
+  width: 30%;
+}
+
+.hub img {
+  height: 120px;
+}
+
+.hub p {
+  display: inline;
+  margin-left: 10px;
+}
+
+.col.colmain.hub h3{
+  margin: 20px 0 40px;
+}
+
+.hubcenter {
+  margin: 60px 5%;
+}
+
+.rigahub {
+  margin: 60px 0 20px;
+  height: 3px;
+  background-color: #33475b;
+}
+
+.checklist {
+  margin: 25px 0 25px;
+  text-align: left;
+}
+
+section.learnandgrow {
+  background: linear-gradient(to right, #00a6bb 0%, #00bba8 100%);
+  color: white;
+}
+
+div.learnandgrow {
+  margin: auto;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.learnandgrow h2 {
+  font-size: 32px;
+}
+
+.learnandgrow p {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 30px 0;
+  line-height: 30px;
+}
+
+section.learnandgrow .col {
+  text-align: center;
+  width: 25%
+}
+
+section.learnandgrow .col p{
+  padding: 20px;
+  font-weight: normal;
+}
+
+section.learnandgrow .col h2{
+  font-family: arial;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+img.imglearnandgrow {
+  padding: 25px 0;
+  height: 90px;
+}
+
+.col.learnandgrow-leftcentral {
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.col.learnandgrow-rightcentral {
+  border-right: 1px solid;
 }
