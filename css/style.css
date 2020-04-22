@@ -40,6 +40,42 @@ li {
 }
 /* Fine Proprietà generali container (Per la larghezza dei contenuti) */
 
+/* Sezione Hover */
+.orangebutton:hover {
+  background-color: #fe9780;
+}
+
+#loginbutton:hover {
+  background-color: #ffe0cc;
+}
+
+.hover1:hover {
+  transition: color 0.5s;
+  color: #fe775a;
+}
+
+.hover2:hover {
+  transition: color 0.5s;
+  color: #83FFDB;
+}
+
+.hover3:hover {
+  transition: background-color 0.5s;
+  background-color: #83FFDB;
+}
+
+.hover4 {
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.hover4:hover {
+  transition: 1s;
+  border: 1px solid white;
+}
+/* Fine Sezione Hover */
+
 /* Proprietà Top-Bar */
 .top-bar {
   background-color: #f4f9fd;
@@ -66,11 +102,11 @@ li {
 }
 
 .col.top-bar p {
-display: inline-block;
+  display: inline-block;
 }
 
 .col.top-bar a {
-line-height: 100px;
+  line-height: 100px;
 }
 
 .col.top-bar a.lang {
@@ -78,7 +114,7 @@ line-height: 100px;
 }
 
 .col.top-bar a.contactus {
-margin-left: 15px;
+  margin-left: 15px;
 }
 
 .fa-chevron-down {
@@ -103,9 +139,6 @@ margin-left: 15px;
   transition: background-color 0.5s;
 }
 
-#loginbutton:hover {
-  background-color: #ffe0cc;
-}
 
 .fa-search {
   margin-right: 10px;
@@ -119,10 +152,6 @@ margin-left: 15px;
   border-radius: 5px;
   margin-left: 10px;
   transition: background-color 0.5s;
-}
-
-.orangebutton:hover {
-  background-color: #fe9780;
 }
 /* Fine Top-bar Header */
 
@@ -148,10 +177,11 @@ nav {
 }
 
 .col.nav.right {
-text-align: right;
+  text-align: right;
 }
 /* Fine Nav Header */
 
+/* Jumbotron */
 .jumbotron {
   background-image: url(../img/jumbotron.png);
   height: 930px;
@@ -169,21 +199,24 @@ text-align: right;
 }
 
 .slogan p {
+  line-height: 30px;
   padding-top: 5%;
   font-size: 20px;
   margin-bottom: 25px;
 }
 
 .button-slogan {
-margin-left: 0;
-padding: 20px 40px;
-font-size: 16px;
+  margin-left: 0;
+  padding: 20px 40px;
+  font-size: 16px;
 }
 
 p.getstarted {
   font-size: 15px;
 }
+/* Fine Jumbotron */
 
+/* Sezione Offers */
 .offers {
   background-color: #f4f9fd;
 }
@@ -256,7 +289,11 @@ section.offers h4 {
 }
 
 .crmright h4 {
-vertical-align: -5px;
+  vertical-align: -5px;
+}
+
+.crmright p {
+  line-height: 30px;
 }
 
 #rigacrm {
@@ -295,8 +332,13 @@ vertical-align: -5px;
 }
 
 .hub p {
+  line-height: 30px;
+}
+
+.hub .checklist ul li p {
   display: inline;
   margin-left: 10px;
+  line-height: 0;
 }
 
 .col.colmain.hub h3 {
@@ -308,7 +350,7 @@ vertical-align: -5px;
 }
 
 .rigahub {
-  margin: 60px 0 20px;
+  margin: 80px 0 20px;
   height: 3px;
   background-color: #33475b;
 }
@@ -317,7 +359,9 @@ vertical-align: -5px;
   margin: 25px 0 25px;
   text-align: left;
 }
+/* Fine Sezione Offers */
 
+/* Sezione Learn & Grow */
 section.learnandgrow {
   background: linear-gradient(to right, #00a6bb 0%, #00bba8 100%);
   color: white;
@@ -368,7 +412,9 @@ img.imglearnandgrow {
 .col.learnandgrow-rightcentral {
   border-right: 1px solid;
 }
+/* Sezione Learn & Grow */
 
+/* Sezione Partners */
 .partners {
   padding: 40px 80px;
 }
@@ -430,5 +476,86 @@ img.imglearnandgrow {
 }
 
 .col.partners-bottomright img {
- width: 400px;
+ width: 350px;
 }
+/* Sezione Partners */
+
+/* Footer */
+footer {
+  background-color: #32495b;
+  color: white;
+  padding: 60px 0 45px;
+}
+
+footer a {
+  font-family: arial;
+  color: white;
+  font-size: 16px;
+}
+
+footer .container .clearfix.topfooter .col {
+  width: 25%;
+  padding-right: 25px;
+}
+
+footer h3 {
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+footer li {
+  line-height: 40px;
+}
+
+.support {
+  padding: 15px 20px;
+  background-color: white;
+  color: #32495b;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+ul#supportandtools li:nth-last-child(1) {
+  margin: 15px 0;
+}
+
+#socials li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#socials li a {
+  font-size: 20px;
+}
+
+#footer-lang {
+  margin: 70px 0 20px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+#footer-lang li {
+  display: inline-block;
+  margin: 0 20px;
+  padding-bottom: 10px;
+}
+
+.credits {
+  padding: 20px 0 0;
+  width: 50%;
+}
+
+.credits p {
+  line-height: 25px;
+}
+
+.legal-privacy {
+  text-align: right;
+}
+
+.legal-privacy a{
+  margin-left: 20px;
+  font-size: 20px;
+}
+/* Fine Footer */
