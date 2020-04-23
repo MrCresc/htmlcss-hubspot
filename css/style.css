@@ -562,3 +562,61 @@ ul#supportandtools li:nth-last-child(1) {
   font-size: 20px;
 }
 /* Fine Footer */
+
+/* Helperbot */
+div#helperbot {
+  font-size: 15px;
+  padding: 40px 15px 15px;
+  background-color: white;
+  border: 2px solid #cbd6e2;
+  border-radius: 5px;
+  height: 130px;
+  width: 250px;
+  position: fixed;
+  bottom: 180px;
+  right: 80px;
+}
+
+div#helperbot img#avatar {
+  position: absolute;
+  width: 50px;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
+}
+
+div#helperbot .fa-times {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+div#helperbot img#hand {
+width: 20px;
+}
+
+div#helperbot img#apex {
+  position: absolute;
+  bottom: -30px;
+}
+
+div#helperbot #bgchat {
+  position: fixed;
+  background-color: #425b76;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  bottom: 80px;
+  right: 100px;
+  text-align: center;
+
+}
+
+div#helperbot #chat {
+  position: absolute;
+  width: 30px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Fine Helperbot */
