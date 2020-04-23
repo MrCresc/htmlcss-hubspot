@@ -74,6 +74,12 @@ li {
   transition: 1s;
   border: 1px solid white;
 }
+
+.hover5:hover {
+  transition: transform 0.5s;
+  transform: scale(1.5);
+}
+
 /* Fine Sezione Hover */
 
 /* Proprietà Top-Bar */
@@ -609,7 +615,6 @@ div#helperbot #bgchat {
   bottom: 80px;
   right: 100px;
   text-align: center;
-
 }
 
 div#helperbot #chat {
