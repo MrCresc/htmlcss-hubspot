@@ -283,7 +283,6 @@ section.offers p {
 section.offers h4 {
   font-size: 20px;
   margin: 30px 0 15px;
-  font-weight: 400px;
   text-transform: uppercase;
   display: inline-block;
 }
@@ -358,6 +357,10 @@ section.offers h4 {
 .checklist {
   margin: 25px 0 25px;
   text-align: left;
+}
+
+section.offers a.learnmore {
+  margin-left: 0;
 }
 /* Fine Sezione Offers */
 
